@@ -9,3 +9,4 @@ E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Core\obj\Debug\net9.0\Core.dl
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Core\obj\Debug\net9.0\refint\Core.dll
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Core\obj\Debug\net9.0\Core.pdb
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Core\obj\Debug\net9.0\ref\Core.dll
+E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Core\obj\Debug\net9.0\Core.sourcelink.json

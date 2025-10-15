@@ -13,3 +13,4 @@ E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Infrastructure\obj\Debug\net9
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\persiapanpkl\belajarangular\FullstackWeb\skinet\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

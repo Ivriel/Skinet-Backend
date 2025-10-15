@@ -40,7 +40,7 @@ namespace API.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult> UpdateProduct(int id, Product product)
+        public async Task<ActionResult> UpdateProduct(int id,Product product)
         {
             if (product.Id != id || !ProductExists(id)) return BadRequest("Tidak bisa mengupdate produk");
 

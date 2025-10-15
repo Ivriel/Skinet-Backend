@@ -169,3 +169,4 @@ E:\persiapanpkl\belajarangular\FullstackWeb\skinet\API\bin\Debug\net9.0\runtimes
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\API\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 E:\persiapanpkl\belajarangular\FullstackWeb\skinet\API\obj\Debug\net9.0\API.sourcelink.json
+E:\persiapanpkl\belajarangular\FullstackWeb\skinet\API\bin\Debug\net9.0\SeedData\products.json

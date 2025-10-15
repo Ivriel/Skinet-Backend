@@ -1,0 +1,56 @@
+[
+  {
+    "Name": "Angular Speedster Board 2000",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 200,
+    "PictureUrl": "images/products/sb-ang1.png",
+    "Type": "Boards",
+    "Brand": "Angular",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Green Angular Board 3000",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 150,
+    "PictureUrl": "images/products/sb-ang2.png",
+    "Type": "Boards",
+    "Brand": "Angular",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Core Board Speed Rush 3",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc.",
+    "Price": 180,
+    "PictureUrl": "images/products/sb-core1.png",
+    "Type": "Boards",
+    "Brand": "NetCore",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Net Core Super Board",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "Price": 300,
+    "PictureUrl": "images/products/sb-core2.png",
+    "Type": "Boards",
+    "Brand": "NetCore",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "React Board Super Whizzy Fast",
+    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+    "Price": 250,
+    "PictureUrl": "images/products/sb-react1.png",
+    "Type": "Boards",
+    "Brand": "React",
+    "QuantityInStock": 100
+  },
+  {
+    "Name": "Typescript Entry Board",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 120,
+    "PictureUrl": "images/products/sb-ts1.png",
+    "Type": "Boards",
+    "Brand": "TypeScript",
+    "QuantityInStock": 100
+  }
+]

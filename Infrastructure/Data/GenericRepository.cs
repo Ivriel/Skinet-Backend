@@ -26,12 +26,22 @@ namespace Infrastructure.Data
             return await ApplySpesification(spec).FirstOrDefaultAsync();
         }
 
+        public async Task<TResult?> GetEntityWithSpec<TResult>(ISpesification<T, TResult> spec)
+        {
+            return await ApplySpesification(spec).FirstOrDefaultAsync();
+        }
+
         public async Task<IReadOnlyList<T>> ListAllAsync()
         {
             return await context.Set<T>().ToListAsync();
         }
 
         public async Task<IReadOnlyList<T>> ListAsync(ISpesification<T> spec)
+        {
+            return await ApplySpesification(spec).ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<TResult>> ListAsync<TResult>(ISpesification<T, TResult> spec)
         {
             return await ApplySpesification(spec).ToListAsync();
         }
@@ -56,5 +66,11 @@ namespace Infrastructure.Data
         {
             return SpesificationEvaluator<T>.GetQuery(context.Set<T>().AsQueryable(), spec);
         }
+
+        private IQueryable<TResult> ApplySpesification<TResult>(ISpesification<T,TResult> spec)
+        {
+            return SpesificationEvaluator<T>.GetQuery<T,TResult>(context.Set<T>().AsQueryable(), spec);
+        }
+
     }
 }

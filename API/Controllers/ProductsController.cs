@@ -15,11 +15,8 @@ namespace API.Controllers
         public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery] ProductSpecParams specParams)
         {
             var spec = new ProductSpesification(specParams);
-            var products = await repo.ListAsync(spec);
-            var count = await repo.CountAsync(spec);
 
-            var pagination = new Pagination<Product>(specParams.PageIndex,specParams.PageSize,count,products);
-            return Ok(pagination);
+            return await CreatePagedResult(repo,spec,specParams.PageIndex,specParams.PageSize);
         }   
 
         [HttpGet("{id:int}")]
